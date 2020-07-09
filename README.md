@@ -40,5 +40,5 @@ This model was mroe informative than the precision score.  The recall score info
    ###### F1 Scores
 One more test is important to note from the confusion matrix.  The F1 score is a measure of a test's accuracy, incorporating the precision and recall variables, true positives, as well as true negatives and false negatives.  When evaluating the F1 scores for the four tests, the values are consisent with the findings of other tests, indicating that the most robust test for this dataset is the SMOTE test with a value that is 9% more accurate than the SMOTEENN test. 
 
-## Recommended Algorhythm for Data Anlaysis
+## Recommended Algorithm for Data Anlaysis
 Based on the data analysis, the SMOTE test is the most robust test for this dataset.  The SMOTE test was indicated by the balanced accuracy score, and strongly favored by both the recall score and the F1 Score.
