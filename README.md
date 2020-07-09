@@ -7,8 +7,8 @@ Scikit_Learn (SKL) is Python's machine learning module that is built on top of S
 
 *Objective: Evaluate three machine learning models and determine which is most effective for the given dataset with credit analysis data.*
 
-* [Jupyter Notebook File](add ipynb file info)
-* [Dataset](datasetlink)
+* [Jupyter Notebook File](/credit_risk_resampling_karasick.ipynb)
+* [Dataset](Resources/LoanStats_2019Q1.csv.zip)
 
 ## Analysis
 Four models utilizing a variety of over and undersampling techniques were utilized to evaluate the efficacy of the models with the dataset utilized.
