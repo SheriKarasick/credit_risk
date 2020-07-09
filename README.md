@@ -1,27 +1,38 @@
-# credit_risk
+# SKL Credit Risk Analysis
 
 ## Summary and Resources
+Scikit_Learn (SKL) is Python's machine learning module that is built on top of SciPy and NumPy to examine datasets in a machine learning context.  In this challenge, we examine credit risk using supervised learning techniques: random oversampling, undersampling and synthetic minority oversampling technique (SMOTE).  After running each of these classification and regression models, we analysis three key outputs to evaluate the efficacy of each side by side on the same dataset: the balanced accuracy score, precision score, and recall score.  
 
-Objective:
-Jupyter Notebook File
+*Objective: Evaluate three machine learning models and determine which is most effective for the given dataset with credit analysis data.*
+
+[Jupyter Notebook File](add ipynb file info)
 
 ## Analysis
 
-
-      #### Results Table
-
+#### Results Table
 
       +--------------------------+------------------+------------------+------------------+
       |Model:                    |  Model 1:        |   Model 2:       |   Model 3:       |
       |                          |Oversampling      |   SMOTE          |  Undersampling   |
-      +-------+------------------+------------------+------------------+------------------+
+      +--------------------------+------------------+------------------+------------------+
       |Balanced Accuracy Score   |             0.65 |             0.65 |             0.55 |
       |Precision Score           |             0.99 |             0.99 |             0.99 |
-      |Recall Score              |             0.71 |             0.81 |             0.58 |
-      +-------+------------------+------------------+------------------+------------------+
+      |Recall Score              |             0.56 |             0.69 |             0.41 |
+      +--------------------------+------------------+------------------+------------------+
 
 #### Written Analysis
 
+###### Model 1: Oversampling
+Oversampling helps us address imbalances in the volume of data which falls in the categories being examined.  Oversampling increases the volume of the underrepresented class so that analysis will be more accurate in the training and testing process.  
+
+Balanced accuracy score = proportion of correct predictions. 65% correct in 
+Overfitting can overcompensate for the specific dataset you are working with.  Learns to intrepret the noise in the data.  
+
+###### Model 2: SMOTE
+
+
+
+###### Model 3: Undersampling
 Module Text:  You’ve learned that in oversampling, the smaller class is resampled to make it larger. Undersampling, in contrast, takes the opposite tack.  [Class imbalance refers to a situation in which the existing classes in a dataset aren’t equally represented. Earlier we discussed a fraud detection scenario in which a large number of credit card transactions are legitimate, and only a small number are fraudulent. For example, let’s say that out of 100,000 transactions, 50 are fraudulent and the rest are legitimate. The pronounced imbalance between the two classes (fraudulent and non-fraudulent) can cause machine learning models to be biased toward the majority class. In such a case, the model will be much better at predicting non-fraudulent transactions than fraudulent ones. This is a problem if the goal is to detect fraudulent transactions!
 
 In such a case, even a model that blindly classifies every transaction as non-fraudulent will achieve a very high degree of accuracy. As we saw previously, one strategy to deal with class imbalance is to use appropriate metrics to evaluate a model’s performance, such as precision and recall.
