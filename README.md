@@ -5,7 +5,7 @@ July 9, 2020 <br />
 ## Summary and Resources
 Scikit_Learn (SKL) is Python's machine learning module that is built on top of SciPy and NumPy to examine datasets in a machine learning context.  In this challenge, we examine credit risk using supervised learning techniques: random oversampling, undersampling and synthetic minority oversampling technique (SMOTE).  After running each of these classification and regression models, we analysis three key outputs to evaluate the efficacy of each side by side on the same dataset: the balanced accuracy score, precision score, and recall score.  
 
-*Objective: Evaluate three machine learning models and determine which is most effective for the given dataset with credit analysis data.*
+*Objective: Evaluate four machine learning models and determine which is most effective for the given dataset with credit analysis data.*
 
 * [Jupyter Notebook File](/credit_risk_resampling_karasick.ipynb)
 * [Dataset](Resources/LoanStats_2019Q1.csv.zip)
